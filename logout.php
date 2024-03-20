@@ -5,5 +5,5 @@ $_SESSION = array();
 
 session_destroy();
 $_SESSION["loggedin"] = false;
-header("Location: index.php");
+header("Location: index");
 exit();

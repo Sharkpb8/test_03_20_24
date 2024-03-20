@@ -13,5 +13,5 @@ $query = DBC::getConnection()->query("insert into users (username, password) val
 $username = $_POST["username"];
 $_SESSION['username'] = $username;
 $_SESSION["loggedin"] = true;
-header('Location: index.php');
+header('Location: index');
 ?>

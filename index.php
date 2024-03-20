@@ -23,17 +23,17 @@
                 <a class="nav-link active" aria-current="page" href="logout.php">Log out</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="animal_list.php">Seznam chovaných zvířat</a>
+                <a class="nav-link active" aria-current="page" href="animal_list">Seznam chovaných zvířat</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="animal_list_want.php">Seznam zvířat, které chceme</a>
+                <a class="nav-link active" aria-current="page" href="animal_list_want">Seznam zvířat, které chceme</a>
                 </li>';
       }else{
         echo '<li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="login_page.php">Login</a>
+          <a class="nav-link active" aria-current="page" href="login_page">Login</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="register_page.php">Register</a>
+          <a class="nav-link active" aria-current="page" href="register_page">Register</a>
         </li> ';
       }
       ?>
