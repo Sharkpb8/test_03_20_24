@@ -10,39 +10,25 @@
 <body>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Home</a>
+    <a class="navbar-brand" href="index.php">Home</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-    <?php
-    session_start();
-      if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-        echo    '<li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="logout.php">Log out</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="animal_list.php">Seznam chovaných zvířat</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="animal_list_want.php">Seznam zvířat, které chceme</a>
-                </li>';
-      }else{
-        echo '<li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="login_page.php">Login</a>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="logout.php">Log out</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="register_page.php">Register</a>
-        </li> ';
-      }
-      ?>
+        <a class="nav-link active" aria-current="page" href="#">Seznam chovaných zvířat</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="animal_list_want.php">Seznam zvířat, které chceme</a>
+        </li>
       </ul>
     </div>
   </div>
 </nav>
-
-<h1>Vítejte</h1>
-<p>Na této stránce můžete najít podrobnosi o naší chovatelský stanici</p>
+    
 </body>
 </html>
