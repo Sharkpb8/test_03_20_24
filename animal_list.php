@@ -30,7 +30,9 @@
     </div>
   </div>
 </nav>
+<div class = "img-flex">
 <img src="img/dog1.jpg" class="img">
 <img src="img/cat1.jpg" class="img">
+</div>
 </body>
 </html>
